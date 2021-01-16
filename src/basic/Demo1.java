@@ -30,7 +30,7 @@ public class Demo1 {
 		DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "AndroidDemo1");
 		cap.setCapability(MobileCapabilityType.APP, appSrc.getAbsolutePath());
-		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,"UiAutomator2");
+//		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,"UiAutomator2");
 		cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, "0");
 		AndroidDriver<AndroidElement> driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"),cap);
 		driver.manage().timeouts().implicitlyWait(40,TimeUnit.SECONDS);
