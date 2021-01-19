@@ -17,8 +17,8 @@ public class MobileBrowserChrome {
 		// TODO Auto-generated method stub
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-		capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Device");
-//		capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "AndroidDemo1");
+//		capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Device");
+		capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "AndroidDemo1");
 		capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UIAutomator2");
 		capabilities.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
 		//capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9.0");
